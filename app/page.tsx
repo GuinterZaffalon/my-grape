@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { AddMemoryModal } from "./components/AddMemoryModal";
-import { CardItem } from "./components/CardItem";
+import { Card, CardItem } from "./components/CardItem";
 import { supabase } from "./lib/supabase";
 
 export default function Home() {
