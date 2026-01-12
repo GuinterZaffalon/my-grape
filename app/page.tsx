@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Card } from "./CardItem";
 import { AddMemoryModal } from "./components/AddMemoryModal";
 import { CardItem } from "./components/CardItem";
 import { supabase } from "./lib/supabase";
